@@ -12,7 +12,7 @@ import {BrowserRouter, Routes as Switch, Route } from "react-router-dom"
 export default function Routes () {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/sigcli">
             <Switch>
                 <Route path="/" element={<Home />} />
                 <Route path="/patient" element={<Patient />} />
